@@ -90,7 +90,7 @@
 
         /* nav rasponsiv  */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 676px) {
     .nav-main{
         justify-content: space-between;
         width: 80%;
@@ -168,3 +168,34 @@ main{
 
 /* main section empowering hero responsiv start start*/
 
+@media screen and (max-width: 676px) {
+    .empowering{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .empo-h1{
+       font-size: 35px;
+       line-height: 45px;
+    }
+    .empo-text{
+        width: 70%;
+    }
+    .empo-text p{
+        margin: 10px 0;
+    }
+    .empowering  img{
+        margin-bottom: 20px;
+    }
+    .empowering button{
+        margin: 20px 0;
+    }
+}
+       /* main section empowering hero responsiv start end*/
+
+
+       
