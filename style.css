@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", serif;
+    list-style: none;
+    text-decoration: none;
+}
+.heid {
+    display: none;
+}
+.show{
+    display: block;
+}
+.navv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.nav-main{
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-text ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-text ul li a{
+    margin-left: 30px;
+}
+/* .nav-text ul li a:nth-child(2){
+    color: rgb(5, 173, 252);
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-text ul li a:first-child{
+    color: rgb(30, 252, 5);
+    font-size: 20px;
+    font-weight: 500;
+} */
+
+
+.home a{
+    color: rgb(5, 173, 252);
+    font-size: 20px;
+    font-weight: 500;
+}
+.About a{
+    color: rgb(5, 252, 13);
+    font-size: 20px;
+    font-weight: 500;
+}
+.Facilities a{
+    color:rgb(31, 24, 222);
+    font-size: 20px;
+    font-weight: 500;
+}
+.Admission a{
+    color:rgb(5, 212, 223);
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-btn {
+    width: 150px;
+    padding: 20px;
+    background:rgb(254, 195, 1);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.nav-hr{
+    height: 1px;
+    background: gold;
+}
+
+
+        /* nav rasponsiv  */
+
+@media screen and (max-width: 576px) {
+    .nav-main{
+        justify-content: space-between;
+        width: 80%;
+    }
+    .nav-main h3 {
+        display: none;
+    }
+    .nav-text {
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .nav-hr{
+        display: block;
+    }
+    .nav-bar{
+        display: block;
+       font-size: 40px;
+        color: rgb(18, 18, 18);
+       
+    }
+    
+}
+          /* end nav style  */
+
+        /* main section empowering hero  start*/
+
+main{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+   
+}
+.empowering{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.empo-text{
+    width:45%;
+}
+.empo-h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.emp{
+    color: rgb(254, 163, 1)
+}
+.towards{
+ color: rgb(1, 172, 253);
+}
+.empo-text p{
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+    font-weight: 400;
+}
+.empo-text button{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(28, 28, 28);
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+.impo-img img{
+   width: 400px;
+} 
+
+/* main section empowering hero responsiv start start*/
+
