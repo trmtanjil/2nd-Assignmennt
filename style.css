@@ -307,7 +307,7 @@ main{
     margin: 15px 5px;
 }
 
-@media screen and (max-width: 676px){
+@media screen and (max-width: 576px){
     .mian-les-gre{
         display: none;
     }
@@ -441,3 +441,87 @@ main{
 
 
 /* our Stories end  */
+
+/* about section start  */
+
+.about-Main{
+    background-color: rgb(77, 97, 249);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.about-kids{
+    width: 350px;
+    text-align: left;
+}
+.about-img{
+    display: flex;
+    margin: 20px 0;
+    
+}
+
+.about-img h2{
+    color: rgb(255, 255, 255);
+    font-size: 22.14px;
+    font-weight: 700;
+}
+.about-kids{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-Scholl h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+}
+.about-Scholl ul{
+margin-top: 20px;
+}
+.about-Scholl ul li{
+    margin-bottom: 10px;
+}
+.about-Scholl ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.about-keep h3{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.keep-img{
+    margin-bottom: 90px;
+}
+
+
+@media screen and (max-width: 576px){
+    .about-sec{
+        
+        background-color: #ab0c0c;
+    }
+    .about-Main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 10px;
+    }
+    .about-Scholl h3{
+        margin: 40px 0 0 0;
+    }
+    .about-keep h3{
+        margin: 20px 0 0 0;
+    }
+}
+
+
+
+
+/* about section end  */
+
