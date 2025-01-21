@@ -90,7 +90,7 @@
 
         /* nav rasponsiv  */
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 576px) {
     .nav-main{
         justify-content: space-between;
         width: 80%;
@@ -168,7 +168,7 @@ main{
 
 /* main section empowering hero responsiv start start*/
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 576px) {
     .empowering{
         display: flex;
         flex-direction: column-reverse;
@@ -272,7 +272,7 @@ main{
 }
 
 /* Standard Curriculum mediya  start  */
-@media screen and (max-width: 676px)  {
+@media screen and (max-width: 576px)  {
     .standard{
         text-align: center;
     }
@@ -427,7 +427,17 @@ main{
 .story-Main2 .btnnn4{
     background: #0ce1fd;
 }
-
+ @media  screen and (max-width: 576px) {
+    .main-2{
+        display: none;
+    }
+    .childd{
+        width: 230px;
+    }
+    .childd img{
+        width: 230px;
+    } 
+} 
 
 
 /* our Stories end  */
