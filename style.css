@@ -285,3 +285,149 @@ main{
         margin: 20px 0;
     }
 }
+
+
+/* less then greeter than start */
+
+.mian-les-gre{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.less-then, .greeter-than{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(255, 215, 0);
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 15px 5px;
+}
+
+@media screen and (max-width: 676px){
+    .mian-les-gre{
+        display: none;
+    }
+}
+/* less then greeter than end */
+
+
+
+/* our Stories start  */
+.our-Stories{
+    background-image: url(./B11-A2-Kids-School/assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.our-Stories h1{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+.main-2 img{
+    width: 510.27px;
+    height: 337px;
+    border-radius: 20px 20px 0px 0px ;
+}
+.main-2{
+    width: 510.27px;
+    height: 630.52px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+.main-2 button{
+    top: 310px;
+    position: absolute;
+    left: 80px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: rgb(60, 216, 232);
+    border-radius: 30px;
+}
+.main-2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 20px;
+}
+.main-2 p{
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    padding: 20px;
+}
+.childd img{
+    width: 270.69px;
+    height: 177px;
+    border-radius: 20px 20px 0px 0px ;
+}
+.childd{
+    position: relative;
+    width: 270.69px;
+    height: 290.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.childd button{
+    top: 155px;
+    position: absolute;
+    left: 30px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: rgb(77, 232, 60);
+    border-radius: 30px;
+}
+.childd h3{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    padding: 20px;
+}
+.story-main-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.story-main-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    
+}
+.stories-button button{
+    width: 197px;
+    height: 50px;
+    margin: 50px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-radius: 10px;
+}
+.story-Main2 .btnnn1{
+    background-color: #1b35dd;
+}
+.story-Main2 .btnnn2{
+    background-color: #1bdd52;
+}
+.story-Main2 .btnnn3{
+    background: #dd1b6f;
+}
+.story-Main2 .btnnn4{
+    background: #0ce1fd;
+}
+
+
+
+/* our Stories end  */
