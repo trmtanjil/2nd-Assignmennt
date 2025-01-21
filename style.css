@@ -75,12 +75,14 @@
     font-weight: 500;
 }
 .nav-btn {
-    width: 150px;
-    padding: 20px;
+    width: 170px;
+    padding: 12px;
     background:rgb(254, 195, 1);
     border: none;
     border-radius: 10px;
     color: white;
+    font-weight: 700;
+    font-size: 15px;
 }
 .nav-hr{
     height: 1px;
@@ -111,7 +113,7 @@
         display: block;
        font-size: 40px;
         color: rgb(18, 18, 18);
-       
+       padding-right: 20px;
     }
     
 }
