@@ -195,7 +195,93 @@ main{
         margin: 20px 0;
     }
 }
-       /* main section empowering hero responsiv start end*/
+       /* main section empowering hero responsiv end*/
 
 
-       
+       /* Standard Curriculum start*/
+
+.standard{
+    background-image: url(./B11-A2-Kids-School/assets/bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.standard h1{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+.standard-main{
+    display: flex;
+    width: 87%;
+}
+.standard-child{
+    width: 25%;
+    height: 356px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.standard-child h3{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.standard-child p{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+}
+.standard-child a{
+    color: rgb(100, 200, 255);
+    font-size: 15.09px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.child2 a{
+    color: rgb(240, 170, 0);
+    font-size: 15.09px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.child3 a{
+    color:rgb(135, 0, 255);
+    font-size: 15.09px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.child2{
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.child3{
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+/* Standard Curriculum mediya  start  */
+@media screen and (max-width: 676px)  {
+    .standard{
+        text-align: center;
+    }
+    .standard-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .standard-child{
+        width: 90%;
+        margin: 20px 0;
+    }
+}
